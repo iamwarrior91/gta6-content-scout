@@ -1,5 +1,6 @@
 # gta6-content-scout
-An n8n AI agent that spots GTA 6 trends on X and draws from saved Instagram posts to pitch short-form videos with viral potential.
+
+Built with ChatGPT Codex, this n8n workflow uses the X API to find trending GTA 6 posts. In tests with mock X data, it routes posts by caption length, analyzes clips when the caption is short, and uses an AI agent to suggest a title, opening hook, and video angle.
 
 ## n8n workflow
 
